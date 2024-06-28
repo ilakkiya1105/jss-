@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td {
+        border:1px solid gold;
+        border-collapse:collapse;
+        }
+        td{
+            padding: 20px;
+        }
+        th,td{
+            text-align: right;
+        }
+        table#t11{
+            border:1px solid gold;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <table style="width: 50%;"> 
+        <caption>students details</caption> 
+        <tr>
+        <th rowspan="2">Name</th>
+        <th>age</th>
+        </tr>
+        <tr>
+            <td>jake</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>jin</td>
+            <td>11</td>
+        </tr>
+    </table>
+
+    <table id="t11" style="width: 50%;"> 
+        <caption>students details</caption> 
+        <tr>
+        <th colspan="2">Name</th>
+        <th>age</th>
+        </tr>
+        <tr>
+            <td>jake</td>
+            <td>20</td>
+        </tr>
+
+        <tr>
+            <td>jin</td>
+            <td>11</td>
+        </tr>
+    </table>
+
+
+    
+
+</body>
+</html>

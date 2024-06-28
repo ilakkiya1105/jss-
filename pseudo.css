@@ -1,0 +1,19 @@
+.hai{
+    color: red;
+}
+
+p.hai::first-line{
+    color: blueviolet;
+    font-size: 50px;
+}
+ /* ::marker{
+    color: blue;
+ } */
+/* h1::before{
+    /* content:"****"; */
+    /* content:url('./my/cat.jpg'); 
+} */
+
+h1::selection{
+    color: blueviolet;
+}

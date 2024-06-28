@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  background-color: lightgreen;
+}
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+/* @media (max-width: 600px) {
+    body {
+        background-color: red;
+    }
+} */
+
+/* Styles for screens with a min width of 601px */
+@media (min-width: 601px) and (max-width:700px) {
+    body {
+        background-color: lightcoral;
+    }
+}
+
+/* Styles for landscape orientation */
+@media (orientation: landscape) {
+    body {
+        background-color: lightgreen;
+    }
+}
+</style>
+</head>
+<body>
+
+<p>Resize the browser window. When the width of this document is 600 pixels or less, the background-color is "lightblue", otherwise it is "lightgreen".</p>
+
+</body>
+</html>

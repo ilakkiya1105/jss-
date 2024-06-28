@@ -1,0 +1,16 @@
+.bg{
+
+    background-image: url("./my/cat.jpg"),url("./my/dhoni.jpg");
+        background-repeat: no-repeat,no-repeat;
+        /* First image 50% width and height, second image 30% width and height */
+        background-size: 50% 50%,30%30%;
+        /* First image at top left, second image at bottom right */
+        background-position: center,bottom left;
+        /* background-attachment: fixed;
+        background-blend-mode:saturation; */
+        background-attachment: fixed, fixed; /* Both images are fixed relative to the viewport */
+        background-blend-mode: saturation;
+        /* height: 50%;
+        width: 50%; */
+    
+    }

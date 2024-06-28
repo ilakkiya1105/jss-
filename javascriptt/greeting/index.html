@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Greetings Card Maker</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.7/dist/html2canvas.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Digital Greetings Card Maker</h1>
+        <div class="controls">
+            <label for="title">Title:</label>
+            <input type="text" id="title" placeholder="Enter card title">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" placeholder="Enter your message"></textarea>
+            
+            <label for="color">Background Color:</label>
+            <input type="color" id="color">
+
+            <label for="imageUpload">Upload Image:</label>
+            <input type="file" id="imageUpload" accept="image/*">
+            
+            <button id="createCard">Create Card</button>
+            <button id="downloadCard">Download Card</button>
+        </div>
+        <div class="card" id="card">
+            <h2 id="cardTitle">Your Title Here</h2>
+            <p id="cardMessage">Your Message Here</p>
+            <img id="cardImage" src="" alt="" style="display: none;">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

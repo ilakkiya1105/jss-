@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning Example</title>
+    <style>
+        .relative-box {
+            background-color: lightblue;
+            height: 200px;
+            width: 200px;
+            position: relative;
+        }
+        .relative-child {
+            background-color: aquamarine;
+            height: 100px;
+            width: 100px;
+            position: relative;
+            top: 20px;
+            left: 20px;
+        }
+        .absolute-child {
+            background-color: yellow;
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="relative-box">
+        <div class="relative-child">Relative Child</div>
+        <div class="absolute-child">Absolute Child</div>
+    </div>
+</body>
+</html>

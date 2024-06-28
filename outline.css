@@ -1,0 +1,20 @@
+.ex1{
+
+outline: 25px dotted green;
+}
+
+.ex2{
+outline:double;
+outline-style: 2px groove red;
+
+}
+
+.ex3{
+
+outline:thick ridge pink;
+}
+
+.ex4{
+
+outline:5px solid yellow;
+}

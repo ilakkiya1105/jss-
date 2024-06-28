@@ -1,0 +1,16 @@
+.bm{
+    border-top: 2px solid green;
+    border-right:3px dotted orange ;
+    border-bottom: 4px dashed green;
+    border-left: 5px solid purple;
+    height: 50%;
+    width:50%;
+    align-items: center;
+    justify-content: center;
+}
+.lil{
+    color:red;
+    font-size: 20px;
+}
+
+/* boxhtml */

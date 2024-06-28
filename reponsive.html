@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Example</title>
+    <style>
+        body {
+            background-color: lightgreen;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s ease;
+        }
+
+        .container {
+            padding: 20px;
+        }
+
+        .box {
+            padding: 20px;
+            background-color: white;
+            margin: 10px 0;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                background-color: red;
+            }
+
+            .box {
+                background-color: lightblue;
+            }
+
+            .container {
+                text-align: center;
+            }
+        }
+
+        @media (min-width: 601px) and (max-width: 700px) {
+            body {
+                background-color: lightcoral;
+            }
+
+            .box {
+                background-color: lightyellow;
+            }
+
+            .container {
+                text-align: left;
+            }
+        }
+
+        @media (orientation: landscape) {
+            body {
+                background-color: lightgreen;
+            }
+
+            .box {
+                background-color: lightpink;
+            }
+
+            .container {
+                display: flex;
+                justify-content: space-around;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+    <p>Resize the browser window or change the orientation to see the background color and layout change.</p>
+</body>
+</html>

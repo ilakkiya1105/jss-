@@ -1,0 +1,26 @@
+/* .another{
+    color:red;
+    background-color:black;
+   
+}
+
+#head1{
+    background-color:aqua;
+    color:yellow;
+}
+*{
+  background-color: chocolate;
+} */
+/* .zip{
+  background-color: rgba(255,0, 0, 0.2);
+   background-image: url(./my/dhoni.jpg) 
+  background-image: url(./my/Dhoni-Wallpapers.jpg);
+} */
+*{
+    background-image: url(./my/dhoni.jpg);
+     background-size:  50%  50%; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    width:500px;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // Bitwise Operator Example
+let a = 5;   // Binary: 101
+let b = 3;   // Binary: 011
+
+let bitwiseAnd = a & b;   // Bitwise AND: 101 & 011 = 001 (1 in decimal)
+let bitwiseOr = a | b;    // Bitwise OR: 101 | 011 = 111 (7 in decimal)
+let bitwiseXor = a ^ b;   // Bitwise XOR: 101 ^ 011 = 110 (6 in decimal)
+let bitwiseNotA = ~a;     // Bitwise NOT (Unary): ~101 = 010 (in two's complement)
+let leftShift = a << 1;   // Left Shift: 101 << 1 = 1010 (10 in decimal)
+let rightShift = a >> 1;  // Right Shift: 101 >> 1 = 10 (2 in decimal)
+
+console.log(bitwiseAnd);   // Output: 1
+console.log(bitwiseOr);    // Output: 7
+console.log(bitwiseXor);   // Output: 6
+console.log(bitwiseNotA);  // Output: -6 (due to two's complement representation)
+console.log(leftShift);    // Output: 10
+console.log(rightShift);   // Output: 2
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap'); */
+
+
+/* @import url('https://fonts.googleapis.com/css2?family=Tiny5&display=swap'); */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+
+
+.container{
+    /* background-color: blue; */
+    max-width: 1080px;
+    padding: 20px;
+    margin: 0 auto;
+    /* font-family: "Gwendolyn", cursive;; */
+    font-family: "Tiny5", monospace;
+}
+
+
+
+.i1{
+    color: green;
+    font-size: 100px;
+}
+
+
+
+/* .image{ */
+    /* display: flex;
+    justify-content: center; /* Centers horizontally 
+    align-items: center;
+     /* Centers vertically 
+    height: 50% ; */
+    /* Makes the container take up the full height of the viewport */
+    /* border: 5px solid red;
+    padding:2px ;
+    margin: 5px 10px 20px 30px; */
+    
+/* .hai{
+
+    border: 5px solid red;
+    padding:2px ;
+    margin: 5px 10px 20px 30px;
+} */

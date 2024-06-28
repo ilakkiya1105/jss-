@@ -1,0 +1,14 @@
+.container{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* flex-direction: row;
+    justify-content:space-between; */
+}
+.container>div{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}   

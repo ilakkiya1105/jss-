@@ -1,0 +1,15 @@
+div{text-align: center;
+    margin: 100px 50px 100px 50px;
+    color:blue;
+    border: 2px solid red;
+    height: 50%;
+    width: 50%;
+    border-radius: 10px;
+    margin-left:30%
+}
+
+.gett{
+    margin: 100px 50px 100px 50px;
+    border: 2px solid red;
+}
+

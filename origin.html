@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .example {
+            width: 200px;
+            height: 200px;
+            border: 10px solid #333;
+            padding: 20px;
+            margin: 20px;
+            background-image: url("./my/cat.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .border-box {
+            background-origin: border-box;
+        }
+
+        .padding-box {
+            background-origin: padding-box;
+        }
+
+        .content-box {
+            background-origin: content-box;
+        }
+    </style>
+    <title>Background Origin Example</title>
+</head>
+<body>
+    <div class="example border-box">border-box</div>
+    <div class="example padding-box">padding-box</div>
+    <div class="example content-box">content-box</div>
+</body>
+</html>
